@@ -1,0 +1,101 @@
+<project name="web_lab3">
+	<property file="build.properties"/>
+	
+	<target name="init">
+		<tstamp/>
+		<mkdir dir="${build.dir}"/>
+		<mkdir dir="${dist.dir}"/>
+		<copydir src="${web.dir}" dest="${dist.dir}/web"/>
+		<copydir src="${lib.dir}" dest="${dist.dir}/web/WEB-INF/lib"/>
+	</target>
+	
+	<target name="compile-sources" depends="init, music">
+		<delete dir="${build.dir}/classes"/>
+		<mkdir dir="${build.dir}/classes"/>
+		<javac destdir="${build.dir}/classes" srcdir="${src.dir}">
+			<classpath>
+	            <fileset dir="${lib.dir}">
+	                  <include name="*" />
+	            </fileset>
+	        </classpath>
+	    </javac>
+	</target>
+	
+	<target name="compile-tests" depends="init, music">
+		<delete dir="${build.dir}/test-classes"/>
+		<mkdir dir="${build.dir}/test-classes"/>
+		
+		<javac destdir="${build.dir}/test-classes" srcdir="${test.dir}">
+			<classpath>
+				<fileset dir="${lib.dir}">
+					   <include name="*" />
+				</fileset>
+	            <pathelement path="${build.dir}/classes"/>
+			</classpath>
+		</javac>
+	    
+	</target>	
+	
+	<target name="build" depends="compile-sources, music">
+		<copy todir="${dist.dir}/web/">
+		        <fileset dir="src">
+	            <include name="**/*.properties" />
+	            <include name="**/*.xml" />
+	        </fileset>
+	    </copy>
+		<war destfile="${build.dir}/lib/lab3-${DSTAMP}.war"
+			 compress="false"
+			 webxml="${dist.dir}/web/WEB-INF/web.xml"
+			 basedir="${dist.dir}/web">
+			<manifest>
+				<attribute name="Specification-Version" value="${DSTAMP}"/>
+			</manifest>
+			<webinf dir="${build.dir}">
+				<include name="classes/**/*"/>
+			</webinf>
+		</war>
+	</target>
+	
+	<target name="music">
+		<sound>
+			<success source="${success.sound}"/>
+			<fail source="${fail.sound}"/>
+		</sound>
+	</target>
+	
+	<target name="test" depends="build, compile-tests">
+		<mkdir dir="${reports.dir}"/>
+		<junitlauncher printSummary="true" haltonfailure="true">
+			<classpath>
+				<fileset dir="${lib.dir}">
+					<include name="*"/>
+				</fileset>
+	            <pathelement path="${build.dir}/classes"/>
+	            <pathelement path="${build.dir}/test-classes"/>
+			</classpath>
+			
+			<testclasses outputdir="${reports.dir}">
+				<fileset dir="${build.dir}/test-classes">
+					<include name="**/*"/>
+				</fileset>
+				<listener type="legacy-brief" sendSysOut="true"/>
+				<listener type="legacy-xml" sendSysErr="true" sendSysOut="true"/>
+			</testclasses>
+		</junitlauncher>
+	</target>
+	
+	<target name="report" depends="test">
+		<junitreport todir="${reports.dir}">
+			<fileset dir="${reports.dir}">
+				<include name="*.xml"/>
+			</fileset>
+		</junitreport>
+	</target>
+	
+	<target name="clean">
+		<delete dir="${reports.dir}" />
+		<delete dir="${build.dir}" />
+		<delete dir="${dist.dir}" />
+	</target>
+
+</project>
