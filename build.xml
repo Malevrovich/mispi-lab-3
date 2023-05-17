@@ -85,11 +85,17 @@
 	</target>
 	
 	<target name="report" depends="test">
-		<junitreport todir="${reports.dir}">
+		<junitreport tofile="${reports.dir}/Full.xml">
 			<fileset dir="${reports.dir}">
 				<include name="*.xml"/>
 			</fileset>
 		</junitreport>
+		<exec executable="git">
+			<arg line="add ${reports.dir}/Full.xml"/>
+		</exec>
+		<exec executable="git">
+			<arg line="commit -m 'report generated at ${DSTAMP} ${TSTAMP}'"/>
+		</exec>
 	</target>
 	
 	<target name="clean">
