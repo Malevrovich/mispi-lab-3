@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites>
-  <testsuite aborted="0" failures="0" id="0" name="HitProcessorTest" package="com.example.lab3.util" skipped="0" tests="302" time="0.553" timestamp="2023-05-18T14:20:50">
+  <testsuite aborted="0" failures="0" id="0" name="ShotDAOTest" package="com.example.lab3.bean" skipped="0" tests="1" time="2.822" timestamp="2023-05-18T15:46:13">
     <properties>
       <property name="ant.library.dir" value="D:\Programming Soft\apache-ant-1.10.13-bin\apache-ant-1.10.13\lib" />
       <property name="ant.file.type" value="file" />
@@ -15,34 +15,35 @@
       <property name="user.variant" value="" />
       <property name="java.vendor.url" value="https://java.oracle.com/" />
       <property name="ant.file.type.web_lab3" value="file" />
+      <property name="resources.dir" value="src/resources" />
       <property name="os.name" value="Windows 10" />
       <property name="reports.dir" value="reports" />
       <property name="java.vm.specification.version" value="17" />
       <property name="success.sound" value="sound/Happy-Cat-Meow.wav" />
       <property name="DSTAMP" value="20230518" />
-      <property name="sun.java.launcher" value="SUN_STANDARD" />
       <property name="user.country" value="RU" />
+      <property name="sun.java.launcher" value="SUN_STANDARD" />
       <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.5\bin" />
-      <property name="sun.java.command" value="org.apache.tools.ant.launch.Launcher clean report" />
+      <property name="sun.java.command" value="org.apache.tools.ant.launch.Launcher report" />
       <property name="jdk.debug" value="release" />
-      <property name="sun.cpu.endian" value="little" />
       <property name="test.dir" value="src/test/java" />
+      <property name="sun.cpu.endian" value="little" />
       <property name="user.home" value="C:\Users\Иван" />
       <property name="user.language" value="ru" />
       <property name="sun.stderr.encoding" value="cp866" />
-      <property name="web.dir" value="web" />
       <property name="java.specification.vendor" value="Oracle Corporation" />
+      <property name="web.dir" value="web" />
       <property name="java.version.date" value="2022-10-18" />
       <property name="java.home" value="C:\Program Files\Java\jdk-17.0.5" />
       <property name="file.separator" value="\" />
       <property name="basedir" value="D:\Programming\ITMO_WEB\eclipse\ant_lab3" />
       <property name="java.vm.compressedOopsMode" value="32-bit" />
-      <property name="sun.stdout.encoding" value="cp866" />
       <property name="line.separator" value=" " />
+      <property name="sun.stdout.encoding" value="cp866" />
       <property name="ant.java.version" value="17" />
-      <property name="java.specification.name" value="Java Platform API Specification" />
       <property name="java.vm.specification.vendor" value="Oracle Corporation" />
-      <property name="TSTAMP" value="1720" />
+      <property name="java.specification.name" value="Java Platform API Specification" />
+      <property name="TSTAMP" value="1846" />
       <property name="user.script" value="" />
       <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
       <property name="java.runtime.version" value="17.0.5+9-LTS-191" />
@@ -54,7 +55,93 @@
       <property name="os.version" value="10.0" />
       <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
       <property name="file.encoding" value="Cp1251" />
-      <property name="ant.project.invoked-targets" value="clean,report" />
+      <property name="ant.project.invoked-targets" value="report" />
+      <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+      <property name="dist.dir" value="dist" />
+      <property name="build.dir" value="build" />
+      <property name="ant.core.lib" value="D:\Programming Soft\apache-ant-1.10.13-bin\apache-ant-1.10.13\lib\ant.jar" />
+      <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/" />
+      <property name="java.io.tmpdir" value="C:\Users\3C8A~1\AppData\Local\Temp\" />
+      <property name="java.version" value="17.0.5" />
+      <property name="TODAY" value="May 18 2023" />
+      <property name="user.dir" value="D:\Programming\ITMO_WEB\eclipse\ant_lab3" />
+      <property name="os.arch" value="amd64" />
+      <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+      <property name="ant.home" value="D:\Programming Soft\apache-ant-1.10.13-bin\apache-ant-1.10.13" />
+      <property name="lib.dir" value="lib" />
+      <property name="sun.os.patch.level" value="" />
+      <property name="ant.file.web_lab3" value="D:\Programming\ITMO_WEB\eclipse\ant_lab3\build.xml" />
+      <property name="native.encoding" value="Cp1251" />
+      <property name="ant.version" value="Apache Ant(TM) version 1.10.13 compiled on January 4 2023" />
+      <property name="java.library.path" value="C:\Program Files\Java\jdk-17.0.5\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Python311\Scripts\;C:\Python311\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\Programming Soft\maven\apache-maven-3.8.3\bin;C:\MinGW\bin;D:\Programming Soft\gradle-7.4-bin\gradle-7.4\bin;C:\Program Files\Java\jdk-17.0.5\bin;C:\ProgramData\ComposerSetup\bin;D:\Programming Soft\cmake\bin;D:\Programming Soft\llvm\bin;D:\Programming Soft\Git\cmd;D:\Programming Soft\dart-sass-1.56.1-windows-x64\dart-sass;D:\Programming Soft\nodejs\;C:\ProgramData\chocolatey\bin;D:\Programming Soft\postgresql\15\bin;D:\Programming Soft\apache-ant-1.10.13-bin\apache-ant-1.10.13\bin;D:\Programming Soft\samsung-tizen\tools\ide\bin;C:\Users\Иван\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\Иван\AppData\Local\Programs\Python\Python39\;C:\Users\Иван\AppData\Local\Microsoft\WindowsApps;D:\Programs\Programming\IntelliJ IDEA Educational Edition 2021.1.3\bin;D:\Programming Soft\Microsoft VS Code\bin;D:\Programming Soft\IntelliJ IDEA 2021.2.2\bin;D:\Programming Soft\maven\apache-maven-3.8.3\bin;C:\Program Files\heroku\bin;D:\Programming Soft\gradle-7.4-bin\gradle-7.4\bin;C:\Program Files\Java\jdk-17.0.5\bin;D:\Programming Soft\php-8.1.10-Win32-vs16-x64;D:\Programming Soft\Apache24\bin;D:\Programming Soft\influxdb2_windows_amd64;C:\Users\Иван\AppData\Roaming\Composer\vendor\bin;D:\Programming Soft\influxdb2-client-2.4.0-windows-amd64;D:\Programming Soft\ninja-win;C:\Users\Иван\AppData\Local\JetBrains\Toolbox\scripts;C:\Users\Иван\AppData\Roaming\npm;;." />
+      <property name="java.vendor" value="Oracle Corporation" />
+      <property name="java.vm.info" value="mixed mode, sharing" />
+      <property name="java.vm.version" value="17.0.5+9-LTS-191" />
+      <property name="deploy.dir" value="D:\Programming Soft\wildfly-27.0.0.Final3\wildfly-27.0.0.Final\standalone\deployments" />
+      <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+      <property name="java.class.version" value="61.0" />
+      <property name="src.dir" value="src/main/java" />
+    </properties>
+    <testcase classname="com.example.lab3.bean.ShotDAOTest" name="testShotAdded()" time="0.521" />
+    <system-out>[EL Info]: 2023-05-18 18:46:11.505--ServerSession(1043584830)--EclipseLink, version: Eclipse Persistence Services - 4.0.0.v202210051929
+</system-out>
+  </testsuite>
+  <testsuite aborted="0" failures="0" id="1" name="HitProcessorTest" package="com.example.lab3.util" skipped="0" tests="302" time="0.48" timestamp="2023-05-18T15:46:13">
+    <properties>
+      <property name="ant.library.dir" value="D:\Programming Soft\apache-ant-1.10.13-bin\apache-ant-1.10.13\lib" />
+      <property name="ant.file.type" value="file" />
+      <property name="java.specification.version" value="17" />
+      <property name="ant.project.name" value="web_lab3" />
+      <property name="sun.cpu.isalist" value="amd64" />
+      <property name="sun.jnu.encoding" value="Cp1251" />
+      <property name="java.class.path" value="D:\Programming Soft\apache-ant-1.10.13-bin\apache-ant-1.10.13\lib\ant-launcher.jar;D:\Programming Soft\apache-ant-1.10.13-bin\apache-ant-1.10.13\lib\activation-1.1.jar;D:\Programming Soft\apache-ant-1.10.13-bin\apache-ant-1.10.13\lib\ant-antlr.jar;D:\Programming Soft\apache-ant-1.10.13-bin\apache-ant-1.10.13\lib\ant-antunit-1.4.1.jar;D:\Programming Soft\apache-ant-1.10.13-bin\apache-ant-1.10.13\lib\ant-apache-bcel.jar;D:\Programming Soft\apache-ant-1.10.13-bin\apache-ant-1.10.13\lib\ant-apache-bsf.jar;D:\Programming Soft\apache-ant-1.10.13-bin\apache-ant-1.10.13\lib\ant-apache-log4j.jar;D:\Programming Soft\apache-ant-1.10.13-bin\apache-ant-1.10.13\lib\ant-apache-oro.jar;D:\Programming Soft\apache-ant-1.10.13-bin\apache-ant-1.10.13\lib\ant-apache-regexp.jar;D:\Programming Soft\apache-ant-1.10.13-bin\apache-ant-1.10.13\lib\ant-apache-resolver.jar;D:\Programming Soft\apache-ant-1.10.13-bin\apache-ant-1.10.13\lib\ant-apache-xalan2.jar;D:\Programming Soft\apache-ant-1.10.13-bin\apache-ant-1.10.13\lib\ant-commons-logging.jar;D:\Programming Soft\apache-ant-1.10.13-bin\apache-ant-1.10.13\lib\ant-commons-net.jar;D:\Programming Soft\apache-ant-1.10.13-bin\apache-ant-1.10.13\lib\ant-imageio.jar;D:\Programming Soft\apache-ant-1.10.13-bin\apache-ant-1.10.13\lib\ant-jai.jar;D:\Programming Soft\apache-ant-1.10.13-bin\apache-ant-1.10.13\lib\ant-jakartamail.jar;D:\Programming Soft\apache-ant-1.10.13-bin\apache-ant-1.10.13\lib\ant-javamail.jar;D:\Programming Soft\apache-ant-1.10.13-bin\apache-ant-1.10.13\lib\ant-jdepend.jar;D:\Programming Soft\apache-ant-1.10.13-bin\apache-ant-1.10.13\lib\ant-jmf.jar;D:\Programming Soft\apache-ant-1.10.13-bin\apache-ant-1.10.13\lib\ant-jsch.jar;D:\Programming Soft\apache-ant-1.10.13-bin\apache-ant-1.10.13\lib\ant-junit.jar;D:\Programming Soft\apache-ant-1.10.13-bin\apache-ant-1.10.13\lib\ant-junit4.jar;D:\Programming Soft\apache-ant-1.10.13-bin\apache-ant-1.10.13\lib\ant-junitlauncher.jar;D:\Programming Soft\apache-ant-1.10.13-bin\apache-ant-1.10.13\lib\ant-launcher.jar;D:\Programming Soft\apache-ant-1.10.13-bin\apache-ant-1.10.13\lib\ant-netrexx.jar;D:\Programming Soft\apache-ant-1.10.13-bin\apache-ant-1.10.13\lib\ant-swing.jar;D:\Programming Soft\apache-ant-1.10.13-bin\apache-ant-1.10.13\lib\ant-testutil.jar;D:\Programming Soft\apache-ant-1.10.13-bin\apache-ant-1.10.13\lib\ant-xz.jar;D:\Programming Soft\apache-ant-1.10.13-bin\apache-ant-1.10.13\lib\ant.jar;D:\Programming Soft\apache-ant-1.10.13-bin\apache-ant-1.10.13\lib\antlr-2.7.7.jar;D:\Programming Soft\apache-ant-1.10.13-bin\apache-ant-1.10.13\lib\apiguardian-api-1.1.2.jar;D:\Programming Soft\apache-ant-1.10.13-bin\apache-ant-1.10.13\lib\asm-7.1.jar;D:\Programming Soft\apache-ant-1.10.13-bin\apache-ant-1.10.13\lib\asm-analysis-7.1.jar;D:\Programming Soft\apache-ant-1.10.13-bin\apache-ant-1.10.13\lib\asm-commons-7.1.jar;D:\Programming Soft\apache-ant-1.10.13-bin\apache-ant-1.10.13\lib\asm-tree-7.1.jar;D:\Programming Soft\apache-ant-1.10.13-bin\apache-ant-1.10.13\lib\asm-util-7.1.jar;D:\Programming Soft\apache-ant-1.10.13-bin\apache-ant-1.10.13\lib\bcel-6.7.0.jar;D:\Programming Soft\apache-ant-1.10.13-bin\apache-ant-1.10.13\lib\bsf-2.4.0.jar;D:\Programming Soft\apache-ant-1.10.13-bin\apache-ant-1.10.13\lib\bsh-2.0b5.jar;D:\Programming Soft\apache-ant-1.10.13-bin\apache-ant-1.10.13\lib\commons-lang3-3.12.0.jar;D:\Programming Soft\apache-ant-1.10.13-bin\apache-ant-1.10.13\lib\commons-logging-1.0.4.jar;D:\Programming Soft\apache-ant-1.10.13-bin\apache-ant-1.10.13\lib\commons-logging-api-1.1.jar;D:\Programming Soft\apache-ant-1.10.13-bin\apache-ant-1.10.13\lib\commons-net-3.9.0.jar;D:\Programming Soft\apache-ant-1.10.13-bin\apache-ant-1.10.13\lib\graal-sdk-20.1.0.jar;D:\Programming Soft\apache-ant-1.10.13-bin\apache-ant-1.10.13\lib\hamcrest-core-1.3.jar;D:\Programming Soft\apache-ant-1.10.13-bin\apache-ant-1.10.13\lib\hamcrest-library-1.3.jar;D:\Programming Soft\apache-ant-1.10.13-bin\apache-ant-1.10.13\lib\icu4j-66.1.jar;D:\Programming Soft\apache-ant-1.10.13-bin\apache-ant-1.10.13\lib\ivy-2.5.0.jar;D:\Programming Soft\apache-ant-1.10.13-bin\apache-ant-1.10.13\lib\jai-codec-1.1.3.jar;D:\Programming Soft\apache-ant-1.10.13-bin\apache-ant-1.10.13\lib\jai-core-1.1.3.jar;D:\Programming Soft\apache-ant-1.10.13-bin\apache-ant-1.10.13\lib\jakarta-regexp-1.4.jar;D:\Programming Soft\apache-ant-1.10.13-bin\apache-ant-1.10.13\lib\jakarta.activation-2.0.1.jar;D:\Programming Soft\apache-ant-1.10.13-bin\apache-ant-1.10.13\lib\jakarta.mail-2.0.1.jar;D:\Programming Soft\apache-ant-1.10.13-bin\apache-ant-1.10.13\lib\jasper-compiler-4.1.36.jar;D:\Programming Soft\apache-ant-1.10.13-bin\apache-ant-1.10.13\lib\jasper-runtime-4.1.36.jar;D:\Programming Soft\apache-ant-1.10.13-bin\apache-ant-1.10.13\lib\javax.mail-1.6.2.jar;D:\Programming Soft\apache-ant-1.10.13-bin\apache-ant-1.10.13\lib\jdepend-2.9.1.jar;D:\Programming Soft\apache-ant-1.10.13-bin\apache-ant-1.10.13\lib\jruby-1.6.8.jar;D:\Programming Soft\apache-ant-1.10.13-bin\apache-ant-1.10.13\lib\js-20.1.0.jar;D:\Programming Soft\apache-ant-1.10.13-bin\apache-ant-1.10.13\lib\js-scriptengine-20.1.0.jar;D:\Programming Soft\apache-ant-1.10.13-bin\apache-ant-1.10.13\lib\jsch-0.1.55.jar;D:\Programming Soft\apache-ant-1.10.13-bin\apache-ant-1.10.13\lib\junit-4.13.1.jar;D:\Programming Soft\apache-ant-1.10.13-bin\apache-ant-1.10.13\lib\junit-4.13.2.jar;D:\Programming Soft\apache-ant-1.10.13-bin\apache-ant-1.10.13\lib\junit-jupiter-api-5.8.2.jar;D:\Programming Soft\apache-ant-1.10.13-bin\apache-ant-1.10.13\lib\junit-jupiter-engine-5.8.2.jar;D:\Programming Soft\apache-ant-1.10.13-bin\apache-ant-1.10.13\lib\junit-platform-commons-1.8.2.jar;D:\Programming Soft\apache-ant-1.10.13-bin\apache-ant-1.10.13\lib\junit-platform-engine-1.8.2.jar;D:\Programming Soft\apache-ant-1.10.13-bin\apache-ant-1.10.13\lib\junit-platform-launcher-1.8.2.jar;D:\Programming Soft\apache-ant-1.10.13-bin\apache-ant-1.10.13\lib\junit-vintage-engine-5.8.2.jar;D:\Programming Soft\apache-ant-1.10.13-bin\apache-ant-1.10.13\lib\log4j-1.2.14.jar;D:\Programming Soft\apache-ant-1.10.13-bin\apache-ant-1.10.13\lib\maven-resolver-ant-tasks-1.4.0-uber.jar;D:\Programming Soft\apache-ant-1.10.13-bin\apache-ant-1.10.13\lib\opentest4j-1.2.0.jar;D:\Programming Soft\apache-ant-1.10.13-bin\apache-ant-1.10.13\lib\oro-2.0.8.jar;D:\Programming Soft\apache-ant-1.10.13-bin\apache-ant-1.10.13\lib\regex-20.1.0.jar;D:\Programming Soft\apache-ant-1.10.13-bin\apache-ant-1.10.13\lib\rhino-1.7.11.jar;D:\Programming Soft\apache-ant-1.10.13-bin\apache-ant-1.10.13\lib\serializer-2.7.2.jar;D:\Programming Soft\apache-ant-1.10.13-bin\apache-ant-1.10.13\lib\servlet-api-2.3.jar;D:\Programming Soft\apache-ant-1.10.13-bin\apache-ant-1.10.13\lib\truffle-api-20.1.0.jar;D:\Programming Soft\apache-ant-1.10.13-bin\apache-ant-1.10.13\lib\which-1.0.jar;D:\Programming Soft\apache-ant-1.10.13-bin\apache-ant-1.10.13\lib\xalan-2.7.2.jar;D:\Programming Soft\apache-ant-1.10.13-bin\apache-ant-1.10.13\lib\xml-apis-1.3.04.jar;D:\Programming Soft\apache-ant-1.10.13-bin\apache-ant-1.10.13\lib\xml-resolver-1.2.jar;D:\Programming Soft\apache-ant-1.10.13-bin\apache-ant-1.10.13\lib\xz-1.8.jar" />
+      <property name="fail.sound" value="sound/Angry-Cat-Meow.wav" />
+      <property name="java.vm.vendor" value="Oracle Corporation" />
+      <property name="sun.arch.data.model" value="64" />
+      <property name="user.variant" value="" />
+      <property name="java.vendor.url" value="https://java.oracle.com/" />
+      <property name="ant.file.type.web_lab3" value="file" />
+      <property name="resources.dir" value="src/resources" />
+      <property name="os.name" value="Windows 10" />
+      <property name="reports.dir" value="reports" />
+      <property name="java.vm.specification.version" value="17" />
+      <property name="success.sound" value="sound/Happy-Cat-Meow.wav" />
+      <property name="DSTAMP" value="20230518" />
+      <property name="user.country" value="RU" />
+      <property name="sun.java.launcher" value="SUN_STANDARD" />
+      <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.5\bin" />
+      <property name="sun.java.command" value="org.apache.tools.ant.launch.Launcher report" />
+      <property name="jdk.debug" value="release" />
+      <property name="test.dir" value="src/test/java" />
+      <property name="sun.cpu.endian" value="little" />
+      <property name="user.home" value="C:\Users\Иван" />
+      <property name="user.language" value="ru" />
+      <property name="sun.stderr.encoding" value="cp866" />
+      <property name="java.specification.vendor" value="Oracle Corporation" />
+      <property name="web.dir" value="web" />
+      <property name="java.version.date" value="2022-10-18" />
+      <property name="java.home" value="C:\Program Files\Java\jdk-17.0.5" />
+      <property name="file.separator" value="\" />
+      <property name="basedir" value="D:\Programming\ITMO_WEB\eclipse\ant_lab3" />
+      <property name="java.vm.compressedOopsMode" value="32-bit" />
+      <property name="line.separator" value=" " />
+      <property name="sun.stdout.encoding" value="cp866" />
+      <property name="ant.java.version" value="17" />
+      <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+      <property name="java.specification.name" value="Java Platform API Specification" />
+      <property name="TSTAMP" value="1846" />
+      <property name="user.script" value="" />
+      <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+      <property name="java.runtime.version" value="17.0.5+9-LTS-191" />
+      <property name="java.security.manager" value="allow" />
+      <property name="user.name" value="Иван" />
+      <property name="jakarta.dir" value="&quot;D:\Programming Soft\wildfly-27.0.0.Final3\wildfly-27.0.0.Final\modules\system\layers\base\jakarta&quot;" />
+      <property name="ant.file" value="D:\Programming\ITMO_WEB\eclipse\ant_lab3\build.xml" />
+      <property name="path.separator" value=";" />
+      <property name="os.version" value="10.0" />
+      <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+      <property name="file.encoding" value="Cp1251" />
+      <property name="ant.project.invoked-targets" value="report" />
       <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
       <property name="dist.dir" value="dist" />
       <property name="build.dir" value="build" />
@@ -84,127 +171,127 @@
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[209]" time="0.0" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[208]" time="0.001" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[201]" time="0.0" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[200]" time="0.0" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[203]" time="0.0" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[200]" time="0.001" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[203]" time="0.001" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[202]" time="0.0" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[205]" time="0.0" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[205]" time="0.001" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[204]" time="0.0" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[207]" time="0.001" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[206]" time="0.0" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[207]" time="0.0" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[206]" time="0.001" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[210]" time="0.0" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[109]" time="0.001" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[102]" time="0.0" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[102]" time="0.001" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[223]" time="0.0" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[101]" time="0.001" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[222]" time="0.0" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[101]" time="0.0" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[222]" time="0.001" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[104]" time="0.001" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[225]" time="0.0" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[103]" time="0.0" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[103]" time="0.001" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[224]" time="0.0" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[106]" time="0.0" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[227]" time="0.001" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[105]" time="0.001" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[226]" time="0.001" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[108]" time="0.0" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[108]" time="0.001" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[229]" time="0.0" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[107]" time="0.0" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[228]" time="0.0" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[230]" time="0.0" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[230]" time="0.001" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[111]" time="0.0" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[232]" time="0.0" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[110]" time="0.0" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[231]" time="0.0" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[219]" time="0.001" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[231]" time="0.001" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[219]" time="0.0" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[212]" time="0.0" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[211]" time="0.0" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[214]" time="0.0" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[213]" time="0.0" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[214]" time="0.001" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[213]" time="0.001" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[216]" time="0.0" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[215]" time="0.001" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[218]" time="0.0" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[217]" time="0.0" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[100]" time="0.001" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[221]" time="0.0" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[220]" time="0.0" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[63]" time="0.0" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[62]" time="0.0" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[100]" time="0.0" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[221]" time="0.001" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[220]" time="0.001" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[63]" time="0.001" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[62]" time="0.001" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[65]" time="0.0" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[64]" time="0.001" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[64]" time="0.0" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[67]" time="0.001" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[66]" time="0.0" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[69]" time="0.001" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[68]" time="0.0" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[61]" time="0.001" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[60]" time="0.0" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[66]" time="0.001" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[69]" time="0.0" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[68]" time="0.001" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[61]" time="0.0" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[60]" time="0.001" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[74]" time="0.001" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[73]" time="0.001" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[76]" time="0.0" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[75]" time="0.0" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[78]" time="0.0" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[77]" time="0.0" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[79]" time="0.0" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[73]" time="0.0" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[76]" time="0.001" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[75]" time="0.001" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[78]" time="0.001" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[77]" time="0.001" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[79]" time="0.001" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[70]" time="0.001" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[72]" time="0.0" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[71]" time="0.001" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[1]" time="0.003" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[85]" time="0.001" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[85]" time="0.0" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[300]" time="0.0" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[84]" time="0.001" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[87]" time="0.0" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[86]" time="0.001" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[89]" time="0.001" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[88]" time="0.0" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[87]" time="0.001" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[86]" time="0.0" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[89]" time="0.0" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[88]" time="0.001" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[81]" time="0.0" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[80]" time="0.001" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[83]" time="0.0" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[82]" time="0.001" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[96]" time="0.0" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[95]" time="0.0" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[82]" time="0.0" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[96]" time="0.001" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[95]" time="0.001" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[98]" time="0.0" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[97]" time="0.0" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[99]" time="0.001" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[99]" time="0.0" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[90]" time="0.0" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[92]" time="0.0" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[91]" time="0.001" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[94]" time="0.001" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[93]" time="0.0" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[92]" time="0.001" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[91]" time="0.0" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[94]" time="0.0" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[93]" time="0.001" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[3]" time="0.001" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[2]" time="0.001" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[2]" time="0.002" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[5]" time="0.001" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[4]" time="0.001" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[7]" time="0.001" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[6]" time="0.001" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[9]" time="0.001" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[8]" time="0.001" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[8]" time="0.002" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[27]" time="0.001" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[26]" time="0.001" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[29]" time="0.001" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[28]" time="0.001" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[28]" time="0.0" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[168]" time="0.0" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[289]" time="0.0" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[167]" time="0.0" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[288]" time="0.0" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[288]" time="0.001" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[21]" time="0.001" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[20]" time="0.0" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[169]" time="0.001" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[20]" time="0.001" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[169]" time="0.0" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[23]" time="0.001" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[22]" time="0.001" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[25]" time="0.001" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[24]" time="0.0" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[171]" time="0.001" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[24]" time="0.001" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[171]" time="0.0" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[292]" time="0.0" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[170]" time="0.001" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[170]" time="0.0" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[291]" time="0.001" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[173]" time="0.0" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[294]" time="0.001" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[294]" time="0.0" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[172]" time="0.0" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[293]" time="0.0" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[175]" time="0.0" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[175]" time="0.001" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[296]" time="0.0" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[174]" time="0.0" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[295]" time="0.0" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[177]" time="0.0" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[298]" time="0.0" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[298]" time="0.001" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[176]" time="0.0" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[297]" time="0.0" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[290]" time="0.0" />
@@ -214,177 +301,177 @@
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[30]" time="0.001" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[157]" time="0.0" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[278]" time="0.0" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[156]" time="0.001" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[156]" time="0.0" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[277]" time="0.0" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[32]" time="0.001" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[159]" time="0.001" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[31]" time="0.001" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[32]" time="0.002" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[159]" time="0.0" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[31]" time="0.0" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[158]" time="0.0" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[279]" time="0.0" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[34]" time="0.001" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[33]" time="0.001" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[36]" time="0.004" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[35]" time="0.001" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[36]" time="0.001" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[35]" time="0.0" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[160]" time="0.0" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[281]" time="0.0" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[280]" time="0.001" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[280]" time="0.0" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[162]" time="0.0" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[283]" time="0.0" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[283]" time="0.001" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[161]" time="0.0" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[282]" time="0.0" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[164]" time="0.001" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[285]" time="0.0" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[164]" time="0.0" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[285]" time="0.001" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[163]" time="0.0" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[284]" time="0.0" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[284]" time="0.001" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[166]" time="0.0" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[287]" time="0.0" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[165]" time="0.001" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[286]" time="0.0" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[49]" time="0.001" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[48]" time="0.001" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[287]" time="0.001" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[165]" time="0.0" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[286]" time="0.001" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[49]" time="0.0" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[48]" time="0.0" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[41]" time="0.001" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[40]" time="0.0" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[189]" time="0.0" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[43]" time="0.001" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[43]" time="0.0" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[42]" time="0.0" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[45]" time="0.0" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[45]" time="0.001" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[44]" time="0.001" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[47]" time="0.001" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[46]" time="0.001" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[193]" time="0.002" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[192]" time="0.001" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[193]" time="0.0" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[192]" time="0.0" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[195]" time="0.0" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[194]" time="0.001" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[194]" time="0.0" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[197]" time="0.001" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[196]" time="0.001" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[199]" time="0.0" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[199]" time="0.001" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[198]" time="0.001" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[191]" time="0.001" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotInFigure()" time="0.021" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[191]" time="0.0" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotInFigure()" time="0.002" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[190]" time="0.0" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[59]" time="0.001" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[59]" time="0.0" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[52]" time="0.001" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[179]" time="0.001" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[179]" time="0.0" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[51]" time="0.001" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[178]" time="0.0" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[299]" time="0.001" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[299]" time="0.0" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[54]" time="0.0" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[53]" time="0.001" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[56]" time="0.0" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[56]" time="0.001" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[55]" time="0.001" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[58]" time="0.001" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[57]" time="0.001" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[182]" time="0.0" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[181]" time="0.001" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[181]" time="0.0" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[184]" time="0.0" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[183]" time="0.0" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[186]" time="0.001" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[186]" time="0.0" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[185]" time="0.0" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[50]" time="0.001" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[188]" time="0.0" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[187]" time="0.0" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[180]" time="0.001" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[124]" time="0.0" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[180]" time="0.0" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[124]" time="0.001" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[245]" time="0.0" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[123]" time="0.001" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[123]" time="0.0" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[244]" time="0.0" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[126]" time="0.001" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[247]" time="0.0" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[247]" time="0.001" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[125]" time="0.0" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[246]" time="0.001" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[246]" time="0.0" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[128]" time="0.001" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[249]" time="0.0" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[249]" time="0.001" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[127]" time="0.001" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[248]" time="0.0" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[248]" time="0.001" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[129]" time="0.001" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[250]" time="0.001" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[131]" time="0.001" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[250]" time="0.0" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[131]" time="0.0" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[252]" time="0.0" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[130]" time="0.001" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[251]" time="0.0" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[130]" time="0.0" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[251]" time="0.001" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[133]" time="0.001" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[254]" time="0.001" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[132]" time="0.001" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[132]" time="0.0" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[253]" time="0.001" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[113]" time="0.0" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[234]" time="0.0" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[112]" time="0.0" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[234]" time="0.001" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[112]" time="0.001" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[233]" time="0.0" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[115]" time="0.001" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[236]" time="0.0" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[114]" time="0.0" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[236]" time="0.001" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[114]" time="0.001" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[235]" time="0.001" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[117]" time="0.0" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[117]" time="0.001" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[238]" time="0.0" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[116]" time="0.0" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[237]" time="0.0" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[119]" time="0.0" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[118]" time="0.0" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[239]" time="0.0" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[118]" time="0.001" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[239]" time="0.001" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[120]" time="0.001" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[241]" time="0.001" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[240]" time="0.001" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[122]" time="0.001" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[243]" time="0.0" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[121]" time="0.0" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[242]" time="0.001" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[146]" time="0.0" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[121]" time="0.001" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[242]" time="0.0" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[146]" time="0.001" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[267]" time="0.001" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[145]" time="0.0" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[145]" time="0.001" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[266]" time="0.001" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[148]" time="0.001" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[148]" time="0.0" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[269]" time="0.0" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[147]" time="0.0" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[147]" time="0.001" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[268]" time="0.001" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[149]" time="0.0" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[270]" time="0.0" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[151]" time="0.0" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[272]" time="0.0" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[150]" time="0.001" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[271]" time="0.0" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[153]" time="0.0" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[270]" time="0.001" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[151]" time="0.001" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[272]" time="0.001" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[150]" time="0.0" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[271]" time="0.001" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[153]" time="0.001" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[274]" time="0.001" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[152]" time="0.0" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[273]" time="0.0" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[152]" time="0.001" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[273]" time="0.001" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[155]" time="0.0" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[276]" time="0.0" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[154]" time="0.0" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[154]" time="0.001" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[275]" time="0.0" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[16]" time="0.002" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[16]" time="0.001" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[15]" time="0.001" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[18]" time="0.001" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[18]" time="0.002" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[17]" time="0.001" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[19]" time="0.001" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[135]" time="0.001" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[256]" time="0.0" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[256]" time="0.001" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[134]" time="0.0" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[255]" time="0.001" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[255]" time="0.0" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[10]" time="0.001" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[137]" time="0.001" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[258]" time="0.0" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[136]" time="0.001" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[257]" time="0.0" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[12]" time="0.001" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[137]" time="0.0" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[258]" time="0.001" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[136]" time="0.0" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[257]" time="0.001" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[12]" time="0.002" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[139]" time="0.0" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[11]" time="0.001" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[138]" time="0.001" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[138]" time="0.0" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[259]" time="0.0" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[14]" time="0.001" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[13]" time="0.001" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[140]" time="0.0" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[261]" time="0.0" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[260]" time="0.0" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[142]" time="0.0" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[263]" time="0.0" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[141]" time="0.0" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[262]" time="0.0" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[144]" time="0.001" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[140]" time="0.001" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[261]" time="0.001" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[260]" time="0.001" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[142]" time="0.001" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[263]" time="0.001" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[141]" time="0.001" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[262]" time="0.001" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[144]" time="0.0" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[265]" time="0.001" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[143]" time="0.0" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[143]" time="0.001" />
     <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInArea()[264]" time="0.001" />
-    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInFigure()" time="0.001" />
+    <testcase classname="com.example.lab3.util.HitProcessorTest" name="testDotNotInFigure()" time="0.002" />
   </testsuite>
-  <testsuite aborted="0" failures="0" id="1" name="ShotValidatorTest" package="com.example.lab3.util" skipped="0" tests="2" time="0.009" timestamp="2023-05-18T14:20:50">
+  <testsuite aborted="0" failures="0" id="2" name="ShotValidatorTest" package="com.example.lab3.util" skipped="0" tests="2" time="0.01" timestamp="2023-05-18T15:46:14">
     <properties>
       <property name="ant.library.dir" value="D:\Programming Soft\apache-ant-1.10.13-bin\apache-ant-1.10.13\lib" />
       <property name="ant.file.type" value="file" />
@@ -399,34 +486,35 @@
       <property name="user.variant" value="" />
       <property name="java.vendor.url" value="https://java.oracle.com/" />
       <property name="ant.file.type.web_lab3" value="file" />
+      <property name="resources.dir" value="src/resources" />
       <property name="os.name" value="Windows 10" />
       <property name="reports.dir" value="reports" />
       <property name="java.vm.specification.version" value="17" />
       <property name="success.sound" value="sound/Happy-Cat-Meow.wav" />
       <property name="DSTAMP" value="20230518" />
-      <property name="sun.java.launcher" value="SUN_STANDARD" />
       <property name="user.country" value="RU" />
+      <property name="sun.java.launcher" value="SUN_STANDARD" />
       <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.5\bin" />
-      <property name="sun.java.command" value="org.apache.tools.ant.launch.Launcher clean report" />
+      <property name="sun.java.command" value="org.apache.tools.ant.launch.Launcher report" />
       <property name="jdk.debug" value="release" />
-      <property name="sun.cpu.endian" value="little" />
       <property name="test.dir" value="src/test/java" />
+      <property name="sun.cpu.endian" value="little" />
       <property name="user.home" value="C:\Users\Иван" />
       <property name="user.language" value="ru" />
       <property name="sun.stderr.encoding" value="cp866" />
-      <property name="web.dir" value="web" />
       <property name="java.specification.vendor" value="Oracle Corporation" />
+      <property name="web.dir" value="web" />
       <property name="java.version.date" value="2022-10-18" />
       <property name="java.home" value="C:\Program Files\Java\jdk-17.0.5" />
       <property name="file.separator" value="\" />
       <property name="basedir" value="D:\Programming\ITMO_WEB\eclipse\ant_lab3" />
       <property name="java.vm.compressedOopsMode" value="32-bit" />
-      <property name="sun.stdout.encoding" value="cp866" />
       <property name="line.separator" value=" " />
+      <property name="sun.stdout.encoding" value="cp866" />
       <property name="ant.java.version" value="17" />
-      <property name="java.specification.name" value="Java Platform API Specification" />
       <property name="java.vm.specification.vendor" value="Oracle Corporation" />
-      <property name="TSTAMP" value="1720" />
+      <property name="java.specification.name" value="Java Platform API Specification" />
+      <property name="TSTAMP" value="1846" />
       <property name="user.script" value="" />
       <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
       <property name="java.runtime.version" value="17.0.5+9-LTS-191" />
@@ -438,7 +526,7 @@
       <property name="os.version" value="10.0" />
       <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
       <property name="file.encoding" value="Cp1251" />
-      <property name="ant.project.invoked-targets" value="clean,report" />
+      <property name="ant.project.invoked-targets" value="report" />
       <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
       <property name="dist.dir" value="dist" />
       <property name="build.dir" value="build" />
@@ -465,7 +553,7 @@
       <property name="java.class.version" value="61.0" />
       <property name="src.dir" value="src/main/java" />
     </properties>
-    <testcase classname="com.example.lab3.util.ShotValidatorTest" name="testExpectedException()" time="0.003" />
-    <testcase classname="com.example.lab3.util.ShotValidatorTest" name="testExpectedExceptionForNull()" time="0.001" />
+    <testcase classname="com.example.lab3.util.ShotValidatorTest" name="testFailForNull()" time="0.001" />
+    <testcase classname="com.example.lab3.util.ShotValidatorTest" name="testFailForStrings()" time="0.0" />
   </testsuite>
 </testsuites>
