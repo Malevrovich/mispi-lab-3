@@ -31,6 +31,7 @@
 					   <include name="*" />
 				</fileset>
 	            <pathelement path="${build.dir}/classes"/>
+				<pathelement path="${resources.dir}/META-INF"/>
 			</classpath>
 		</javac>
 	    
@@ -38,7 +39,7 @@
 	
 	<target name="build" depends="compile-sources, music">
 		<copy todir="${dist.dir}/web/">
-		        <fileset dir="src">
+		     <fileset dir="${resources.dir}">
 	            <include name="**/*.properties" />
 	            <include name="**/*.xml" />
 	        </fileset>
@@ -54,6 +55,14 @@
 				<include name="classes/**/*"/>
 			</webinf>
 		</war>
+	</target>
+	
+	<target name="deploy" depends="build">
+		<copy todir="${deploy.dir}">
+			<fileset dir="${build.dir}/lib">
+				<include name="*.war"/>
+			</fileset>
+		</copy>
 	</target>
 	
 	<target name="music">
@@ -72,6 +81,7 @@
 				</fileset>
 	            <pathelement path="${build.dir}/classes"/>
 	            <pathelement path="${build.dir}/test-classes"/>
+				<pathelement path="${resources.dir}"/>
 			</classpath>
 			
 			<testclasses outputdir="${reports.dir}">

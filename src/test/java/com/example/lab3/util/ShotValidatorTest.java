@@ -7,21 +7,22 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class ShotValidatorTest {
     static ShotValidator shotValidator;
+    
     @BeforeAll
     public static void init() {
         shotValidator = new ShotValidator();
     }
+    
     @Test
-    void testExpectedException() {
-
+    void testFailForStrings() {
     	shotValidator.validateParameters("One","Two","Three");
 
     	assertFalse(shotValidator.getValid());
         assertEquals("X, Y, R must be float", shotValidator.getMessage());
     }
+    
     @Test
-    void testExpectedExceptionForNull() {
-
+    void testFailForNull() {
         shotValidator.validateParameters(null,null, null);
 
         assertFalse(shotValidator.getValid());
